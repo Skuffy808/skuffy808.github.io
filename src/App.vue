@@ -3,12 +3,15 @@ import Hero from './components/Hero.vue';
 import Card from './components/Card.vue';
 import CategoryHeader from './components/CategoryHeader.vue';
 import About from './components/About.vue';
+import Skills from './components/Skills.vue';
 </script>
 
 
 <template>
   <div class="min-h-screen bg-gradient-to-br from-blue-500 via-black to-pink-500 text-white flex flex-col items-center justify-center gap-8 px-4 py-12">
     <Hero />
+    <CategoryHeader title="Skills"/>
+    <Skills />
     <CategoryHeader title="About Me"/>
     <About />
     <CategoryHeader title="Discord Servers" description="Some cool discord servers that I own"/>
