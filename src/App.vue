@@ -4,6 +4,7 @@ import Card from './components/Card.vue';
 import CategoryHeader from './components/CategoryHeader.vue';
 import About from './components/About.vue';
 import Skills from './components/Skills.vue';
+import Contact from './components/Contact.vue';
 </script>
 
 
@@ -20,6 +21,8 @@ import Skills from './components/Skills.vue';
     <Card card-title="Skuffy's Tavern" card-description="The personal discord server of the one and only Skuffy" card-image="skuffy.png" card-link="https://discord.gg/U5mH8wJBMk"/>
     <Card card-title="Game.dev()" card-description="Find people to collaborate with and make games!" card-image="game.dev().png" card-link="https://discord.gg/C8qgknw7H3"/>
     <Card card-title="Hangout Heaven" card-description="A discord server for people to come together and hangout." card-image="hangout-heaven.png" card-link="https://discord.gg/MjtcVEMAzK"/>
+    <CategoryHeader title="Contact Me"/>
+    <Contact/>
 
   </div>
 </template>
